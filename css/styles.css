@@ -1,0 +1,97 @@
+body {
+  background-color: #fff;
+  font-style: normal;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 200;
+  line-height: 1.7em;
+  font-size: 16px;
+}
+
+h1 {
+  font-style: normal;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 200;
+  font-size: 3.5rem;
+  line-height: 1.7em;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+
+.container-fluid {
+  padding: 1% 5%;
+}
+
+/* <!-- Navigation Bar --> */
+/* padding: 0 0 1rem; */
+.navbar-brand {
+  font-style: normal;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+/* Row */
+/* bio */
+/* videos */
+
+.videosh1{
+  color: #fff;
+  text-align: center;
+}
+.video-container {
+  padding: 0 5%;
+}
+
+.figure-caption {
+  font-style: normal;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  color: black;
+}
+
+.video-description {
+  padding-top: 3%;
+  color: #fff;
+}
+
+  .night-description {
+    color: #fff;
+    padding-top: 2%;
+  }
+
+  /* worklist */
+
+  .worklisth1 {
+    color: #212529;
+    text-align: center;
+  }
+  .worklist-container {
+    padding: 3% 10%;
+  }
+
+  .category {
+    text-align: center;
+    padding: 2%;
+  }
+
+  /* Contact me form */
+  .contact-container {
+    padding: 1% 30%;
+  }
+
+  .contacth1{
+    color: #fff;
+    text-align: center;
+  }
