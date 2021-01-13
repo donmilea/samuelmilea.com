@@ -43,6 +43,7 @@ h2 {
 @media (max-width: 900px) {
 
   .navbar-brand { margin: auto;
+    font-size: 1.5rem;
 
   }
 
