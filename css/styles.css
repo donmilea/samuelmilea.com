@@ -1,10 +1,10 @@
 body {
-  background-color: #fff;
+  margin: 0
   font-style: normal;
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 200;
   line-height: 1.7em;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 h1 {
@@ -21,23 +21,39 @@ h2 {
   font-weight: 300;
   padding-bottom: 30px;
 }
+p {
+  color: #fff;
+}
 
 .container-fluid {
-  padding: 1% 5%;
+  padding: 1.5% 5%;
 }
+
+.wave-container > svg {
+  display: block;
+}
+
 
 /* <!-- Navigation Bar --> */
 
+.navbar {
+  background-color: #290001;
+}
+
 .navbar-brand {
+  color: #fff;
   font-style: normal;
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 200;
   letter-spacing: 1rem;
   text-transform: uppercase;
+
 }
 
 .nav-item {
-  padding: 0 5px;
+  color: #fff;
+  padding: 0 20px;
 }
 
 @media (max-width: 900px) {
@@ -57,9 +73,27 @@ h2 {
 
 }
 
+
+
 /* Row */
 /* bio */
+#bio {
+  background-color: #dbcbbd;
+}
+
 /* videos */
+
+#unvoiced {
+  background-color: #290001;
+}
+
+#alittlehelp {
+  background-color: #dbcbbd;
+}
+
+#whereshehaslain {
+  background-color: #290001;
+}
 
 .videosh1{
   color: #fff;
