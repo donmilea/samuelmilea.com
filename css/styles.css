@@ -1,10 +1,11 @@
 body {
-  margin: 0
+  margin: 0;
+  padding: 0;
   font-style: normal;
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 200;
   line-height: 1.7em;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h1 {
@@ -21,23 +22,46 @@ h2 {
   font-weight: 300;
   padding-bottom: 30px;
 }
+
 p {
-  color: #fff;
+  color: #000;
+}
+
+.whitetext {
+  color: #eee;
 }
 
 .container-fluid {
   padding: 1.5% 5%;
 }
 
-.wave-container > svg {
-  display: block;
+.wave-container1 {
+  background: #c9d6df;
 }
 
+.wave-container2 {
+  background: #c9d6df;
+}
+
+.wave-container3 {
+  background: #323232;
+}
+
+.wave-container4 {
+  background: #c9d6df;
+}
+
+.wave-container5 {
+  background: #323232;
+}
+
+.wave-container6 {
+  background: #c9d6df;
+}
 
 /* <!-- Navigation Bar --> */
-
 .navbar {
-  background-color: #290001;
+  background-color: #323232;
 }
 
 .navbar-brand {
@@ -48,7 +72,6 @@ p {
   font-weight: 200;
   letter-spacing: 1rem;
   text-transform: uppercase;
-
 }
 
 .nav-item {
@@ -57,10 +80,9 @@ p {
 }
 
 @media (max-width: 900px) {
-
-  .navbar-brand { margin: auto;
+  .navbar-brand {
+    margin: auto;
     font-size: 1.5rem;
-
   }
 
   .navbar-toggler {
@@ -70,78 +92,83 @@ p {
   .navbar-toggler-icon {
     margin: auto;
   }
-
 }
 
-
-
-/* Row */
+/* MUSIC PAGE START */
 /* bio */
-#bio {
-  background-color: #dbcbbd;
+.bio {
+  background-color: #c9d6df;
 }
 
-/* videos */
-
-#unvoiced {
-  background-color: #290001;
+.introduction {
+  padding-left: 10%;
+  font-size: 1.5em;
+}
+/* UNVOICED */
+.unvoiced {
+  background-color: #323232;
 }
 
-#alittlehelp {
-  background-color: #dbcbbd;
+/* A LITTLE HELP */
+
+.alittlehelp {
+  background-color: #c9d6df;
 }
 
-#whereshehaslain {
-  background-color: #290001;
+/* WHERE SHE HAS LAIN */
+
+.whereshehaslain {
+  background-color: #323232;
 }
 
-.videosh1{
+
+/* NIGHT BAZAAR */
+
+.nightbazaar {
+  background-color: #c9d6df;
+}
+/* MUSIC PAGE END */
+
+/* ABOUT.HTML START */
+
+.about {
+  background-color: #c9d6df;
+}
+
+/* ABOUT.HTML END */
+
+
+/* worklist */
+.worklisth1 {
+  color: #212529;
+  text-align: center;
+}
+
+.worklist-container {
+  padding: 3% 10%;
+}
+
+.category {
+  text-align: center;
+  padding: 2%;
+}
+
+/* Contact me form */
+.contact-container {
+  padding: 1% 20%;
+}
+
+.contacth1 {
   color: #fff;
   text-align: center;
 }
-.video-container {
-  padding: 0 5%;
+
+/* FOOTER */
+
+.footer {
+background-color: #323232;
 }
-
-.figure-caption {
-  font-style: normal;
-  font-family: "proxima-nova", sans-serif;
-  font-size: 1rem;
-  text-align: center;
-  color: black;
+.footertext {
+  color: #eee;
+  font-size: .7em;
 }
-
-.video-description {
-  padding-top: 3%;
-  color: #fff;
-}
-
-  .night-description {
-    color: #fff;
-    padding-top: 2%;
-  }
-
-  /* worklist */
-
-  .worklisth1 {
-    color: #212529;
-    text-align: center;
-  }
-  .worklist-container {
-    padding: 3% 10%;
-  }
-
-  .category {
-    text-align: center;
-    padding: 2%;
-  }
-
-  /* Contact me form */
-  .contact-container {
-    padding: 1% 20%;
-  }
-
-  .contacth1{
-    color: #fff;
-    text-align: center;
-  }
