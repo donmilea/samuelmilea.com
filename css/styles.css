@@ -18,13 +18,15 @@ h1 {
 
 h2 {
   font-style: normal;
-  font-family: 'Nunito Sans', sans-serif;
+  /* font-family: 'Cormorant Garamond', serif; */
+  /* font-family: 'Alice', serif; */
+  font-family: 'Marcellus', serif;
   font-weight: 300;
   padding-bottom: 30px;
 }
 
 p {
-  color: #000;
+  color: #212529;
 }
 
 .whitetext {
@@ -36,19 +38,19 @@ p {
 }
 
 .wave-container1 {
-  background: #c9d6df;
+  background: #4a3933;
 }
 
 .wave-container2 {
-  background: #c9d6df;
+  background: #f0a500;
 }
 
 .wave-container3 {
-  background: #323232;
+  background: #e45826;
 }
 
 .wave-container4 {
-  background: #c9d6df;
+  background: #e6d5b8;
 }
 
 .wave-container5 {
@@ -61,14 +63,14 @@ p {
 
 /* <!-- Navigation Bar --> */
 .navbar {
-  background-color: #323232;
+  background-color: #4a3933;
 }
 
 .navbar-brand {
   color: #fff;
   font-style: normal;
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 200;
   letter-spacing: 1rem;
   text-transform: uppercase;
@@ -96,8 +98,11 @@ p {
 
 /* MUSIC PAGE START */
 /* bio */
+.biotext {
+  font-size: 1.5em;
+}
 .bio {
-  background-color: #c9d6df;
+  background-color: #f0a500;
 }
 
 .introduction {
@@ -106,13 +111,13 @@ p {
 }
 /* UNVOICED */
 .unvoiced {
-  background-color: #323232;
+  background-color: #e45826;
 }
 
 /* A LITTLE HELP */
 
 .alittlehelp {
-  background-color: #c9d6df;
+  background-color: #e6d5b8;
 }
 
 /* WHERE SHE HAS LAIN */
