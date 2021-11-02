@@ -20,7 +20,8 @@ h2 {
   font-style: normal;
   /* font-family: 'Cormorant Garamond', serif; */
   /* font-family: 'Alice', serif; */
-  font-family: 'Marcellus', serif;
+  /* font-family: 'Marcellus', serif; */
+  font-family: 'Cormorant Garamond', serif;
   font-weight: 300;
   padding-bottom: 30px;
 }
@@ -29,20 +30,17 @@ p {
   color: #212529;
 }
 
+hr {
+  color: #212529;
+  margin: 0 0;
+
+}
 .whitetext {
   color: #eee;
 }
 
 .container-fluid {
-  padding: 1.5% 5%;
-}
-
-.wave-container1 {
-  background: #4a3933;
-}
-
-.wave-container2 {
-  background: #f0a500;
+  padding: .5% 2%;
 }
 
 .wave-container3 {
@@ -61,16 +59,21 @@ p {
   background: #c9d6df;
 }
 
+.vl {
+  border-left: 1px solid #212529;
+  height: 500px;
+}
+
 /* <!-- Navigation Bar --> */
 .navbar {
-  background-color: #4a3933;
+  background-color: #fff;
 }
 
 .navbar-brand {
-  color: #fff;
+  color: #212529;
   font-style: normal;
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 200;
   letter-spacing: 1rem;
   text-transform: uppercase;
@@ -78,7 +81,7 @@ p {
 
 .nav-item {
   color: #fff;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 @media (max-width: 900px) {
@@ -101,50 +104,36 @@ p {
 .biotext {
   font-size: 1.5em;
 }
+
 .bio {
-  background-color: #f0a500;
+  background-color: #fff;
 }
 
 .introduction {
   padding-left: 10%;
   font-size: 1.5em;
 }
+
 /* UNVOICED */
-.unvoiced {
-  background-color: #e45826;
-}
 
 /* A LITTLE HELP */
 
-.alittlehelp {
-  background-color: #e6d5b8;
-}
-
 /* WHERE SHE HAS LAIN */
-
-.whereshehaslain {
-  background-color: #323232;
-}
 
 
 /* NIGHT BAZAAR */
 
-.nightbazaar {
-  background-color: #c9d6df;
-}
+
 /* MUSIC PAGE END */
-
 /* ABOUT.HTML START */
-
 .about {
-  background-color: #c9d6df;
 }
-
 /* ABOUT.HTML END */
 
-
 /* worklist */
-.worklisth1 {
+
+
+.worklist {
   color: #212529;
   text-align: center;
 }
@@ -170,10 +159,8 @@ p {
 
 /* FOOTER */
 
-.footer {
-background-color: #323232;
-}
+
 .footertext {
-  color: #eee;
+  color: #111;
   font-size: .7em;
 }
